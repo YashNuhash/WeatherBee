@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
-    <title>Weather</title>
+    <title>WeatherBee</title>
+    <style>
+      html,body{
+        background-image:url('/assets/background.png');
+      }
+    </style>
     <link rel="stylesheet" href="src/scss/main.scss" />
     <link rel="shortcut icon" type="image/x-icon" />
   </head>
@@ -111,10 +116,10 @@
             />
           </svg>
         </div>
-        <div class="cta-button-text">Support Project</div>
+        <div class="cta-button-text">GitHub</div>
       </div>
     </div>
-    <div class="heading">Today Overview</div>
+    <div class="heading">WeatherBee's Today Overview</div>
     <div class="current-weather-section">
       <div class="current-weather-card">
         <img class="current-weather-icon dynamic-data loading" />
@@ -200,7 +205,7 @@
     </div>
     <div class="heading">Next 5 Days</div>
     <div class="daily-forecast-section"></div>
-    <div class="footer">
+
       <div class="logo">
         <svg width="98" height="24" viewBox="0 0 98 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -237,7 +242,6 @@
           />
         </svg>
       </div>
-      <div class="attribution">Weather data provided by OpenWeather</div>
       <div class="top-button" tabindex="5">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path

@@ -1,11 +1,14 @@
 {
-  "name": "weather",
+  "name": "WeatherBee",
+  "homepage": "https://yashnuhash.github.io/WeatherBee/",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "description": "Quickly access accurate weather information with a clean, modern and user-friendly design.",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -18,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/pekkiriscim/weather/issues"
   },
-  "homepage": "https://github.com/pekkiriscim/weather#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "sass": "^1.59.2",
@@ -27,5 +29,8 @@
   },
   "browserslist": [
     "> 0%"
-  ]
+  ],
+  "dependencies": {
+    "gh-pages": "^6.1.0"
+  }
 }
